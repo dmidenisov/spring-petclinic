@@ -376,4 +376,10 @@
     <developerConnection>scm:git:https://github.com/dmidenisov/spring-petclinic.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
+  <distributionManagement>
+   <repository>
+      <id>local_nexus</id>
+      <url>http://localhost:8081/repository/local-hosted/</url>
+   </repository>
+  </distributionManagement>
 </project>
