@@ -379,7 +379,7 @@
   <distributionManagement>
    <repository>
       <id>local_nexus</id>
-      <url>https://host.docker.internal:8081/repository/local-hosted/</url>
+      <url>http://host.docker.internal:8081/repository/local-hosted/</url>
    </repository>
   </distributionManagement>
 </project>
